@@ -5,6 +5,10 @@
   --color-black: #000;
 }
 
+.font_color_blue {
+  color: var(--color-blue);
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -47,10 +51,6 @@
   text-decoration: none;
 }
 
-.link_color_blue {
-  color: var(--color-blue);
-}
-
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -83,6 +83,44 @@
   left: 64px;
   z-index: 10;
   background-image: url(../images/logo_place_header.svg);
+}
+
+.description {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.two-colomns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-colomns__brief {
+  margin: 0;
+  width: 175px;
+  line-height: 1.2rem;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-colomns__main-text {
+  width: 80%;
+  min-width: 784p;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-colomns__paragraph {
+  margin: 0;
+}
+
+.two-colomns__span-accent {
+  font-weight: 600;
 }
 
 .table__cell_theme_dark {
