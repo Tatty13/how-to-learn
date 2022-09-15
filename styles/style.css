@@ -86,6 +86,10 @@
   background-image: url(../images/logo_place_header.svg);
 }
 
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
 .description {
   padding: 100px 0 0;
   display: flex;
@@ -265,4 +269,61 @@
   right: -210px;
   width: 877px;
   height: 877px;
+}
+
+.footer {
+  box-sizing: border-box;
+  padding: 60px 0 40px;
+  min-height: 350px;
+  display: flex;
+  background-color: var(--color-grey-dark);
+}
+
+.footer__columns {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  color: var(--color-while)
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0 0 16px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer__column-link {
+  color: var(--color-while);
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
