@@ -38,8 +38,24 @@
 }
 
 .header__link {
+  position: relative;
   text-decoration: none;
   color: #2f80ed;
+}
+
+.header__link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #2f80ed;
+  transition: .5s;
+}
+
+.header__link:hover::after {
+  width: 100%;
 }
 
 .header__main-illustration {
@@ -235,6 +251,21 @@
   color: #2f80ed;
 }
 
+.feynman__link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2f80ed;
+  transition: .5s;
+}
+
+.feynman__link:hover::after {
+  width: 100%;
+}
+
 .kaufman {
   position: relative;
   margin: 0;
@@ -313,9 +344,27 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition: .3s;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+}
+
+.footer__column-link:hover .footer__social-icon {
+  filter: invert(2%) sepia(49%) saturate(1823%) hue-rotate(198deg) brightness(99%) contrast(90%);
+}
+
+.footer__column-link:active {
+  scale: 1.05;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  transition: .3s;
 }
