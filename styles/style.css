@@ -86,13 +86,13 @@
   justify-content: center;
 }
 
-.two-colomns {
+.two-columns {
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
-.two-colomns__brief {
+.two-columns__brief {
   margin: 0;
   width: 175px;
   line-height: 1.2;
@@ -101,7 +101,7 @@
   color: #2f80ed;
 }
 
-.two-colomns__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   display: flex;
@@ -111,11 +111,11 @@
   font-weight: normal;
 }
 
-.two-colomns__paragraph {
+.two-columns__paragraph {
   margin: 0;
 }
 
-.two-colomns__span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
