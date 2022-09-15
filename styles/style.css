@@ -19,7 +19,7 @@
   z-index: 8;
   margin: auto 0;
   padding-left: 64px;
-  width: 730px;
+  max-width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -31,7 +31,7 @@
   left: 64px;
   z-index: 8;
   margin: 0;
-  width: 388px;
+  max-width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -215,7 +215,7 @@
 
 .feynman__title {
   margin: 0;
-  width: 648px;
+  max-width: 648px;
   text-align: center;
   line-height: 1.15em;
   font-size: 120px;
