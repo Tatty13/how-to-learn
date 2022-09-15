@@ -64,8 +64,8 @@
   width: 228px;
   height: 32px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: top left;
+  background-size: contain;
 }
 
 .logo_place_header {
