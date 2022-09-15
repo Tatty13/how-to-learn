@@ -95,7 +95,7 @@
 .two-colomns__brief {
   margin: 0;
   width: 175px;
-  line-height: 1.2rem;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
@@ -130,7 +130,7 @@
   margin: 0;
   width: 60%;
   text-align: center;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
 }
@@ -185,14 +185,14 @@
 
 .table__heading {
   margin: 0;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
   margin: 20px 0 0;
-  line-height: 1.2em;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
@@ -206,18 +206,15 @@
   flex-direction: column;
   align-items: center;
   gap: 70px;
-  background-color: #f2f2f2;
+  background: #f2f2f2 left bottom / 867px 637px no-repeat;
   background-image: url(../images/feynman.png);
-  background-position: left bottom;
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
 }
 
 .feynman__title {
   margin: 0;
   max-width: 648px;
   text-align: center;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
 }
