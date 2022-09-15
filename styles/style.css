@@ -8,6 +8,7 @@
 
 .header {
   position: relative;
+  z-index: 1;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -16,7 +17,6 @@
 }
 
 .header__title {
-  z-index: 8;
   margin: auto 0;
   padding-left: 64px;
   max-width: 730px;
@@ -29,7 +29,6 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 8;
   margin: 0;
   max-width: 388px;
   line-height: 25px;
@@ -62,13 +61,14 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 2;
+  z-index: -1;
   width: 765px;
   height: 608px;
 }
 
 .header__square-pic {
   position: absolute;
+  z-index: -2;
   top: 64px;
   right: 0;
   height: 568px;
@@ -88,7 +88,6 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 10;
   background-image: url(../images/logo_place_header.svg);
 }
 
@@ -153,7 +152,6 @@
 }
 
 .section-title_theme_dark {
-  z-index: 5;
   color: #fff;
 }
 
@@ -167,7 +165,6 @@
 }
 
 .section-subtitle_theme_dark {
-  z-index: 5;
   margin: 20px 0 80px;
   color: #fff;
 }
@@ -184,7 +181,6 @@
 }
 
 .table_theme_dark {
-  z-index: 5;
   row-gap: 80px;
 }
 
@@ -268,6 +264,7 @@
 
 .kaufman {
   position: relative;
+  z-index: 1;
   margin: 0;
   padding: 90px 0;
   display: flex;
@@ -279,6 +276,7 @@
 
 .kaufman__triangle {
   position: absolute;
+  z-index: -1;
   top: 0;
   right: -210px;
   width: 877px;
