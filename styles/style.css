@@ -340,7 +340,6 @@
 .footer__column-link {
   display: flex;
   align-items: center;
-  gap: 10px;
   color: #fff;
   text-decoration: none;
   line-height: 30px;
@@ -364,5 +363,11 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
   transition: .3s;
 }
+
+ /* В брифе просто указано расстояние между иконкой и соц.сеть.
+  Буду очень благодарна, если в комментарии к работе Вы сможете уточнить,
+  почему нельзя было оставить gap для footer__column-link вместо указания отступа для icon.
+  Заранее благодаою! */
