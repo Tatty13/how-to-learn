@@ -17,8 +17,7 @@
 }
 
 .header__title {
-  margin: auto 0;
-  padding-left: 64px;
+  margin: auto 0 auto 64px;
   max-width: 730px;
   line-height: 96px;
   font-size: 102px;
