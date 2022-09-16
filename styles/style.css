@@ -82,6 +82,12 @@
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
+  transition: .3s;
+}
+
+.logo:hover {
+  /* background-color: #2f80ed; */
+  transform: scale(1.05);
 }
 
 .logo_place_header {
