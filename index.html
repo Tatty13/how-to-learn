@@ -10,12 +10,12 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <a class="logo logo_place_header" href="https://practicum.yandex.ru/" target="_blank"></a>
       <h1 class="header__title">Научиться учиться</h1>
-      <h3 class="header__subtitle">
+      <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
-      </h3>
+      </p>
       <img class="header__main-illustration"
            src="./images/header-image.png"
            alt="Главная иллюстрация. Фрагмент картины Ф.Решетникова 'Опять двойка', на котором изображён печальный мальчик, собака и укоризненно смотрящие на мальчика родственники">
@@ -23,19 +23,19 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-colomns">
-          <h4 class="two-colomns__brief">Главные проблемы в обучении</h4>
-          <div class="two-colomns__main-text">
-            <p class="two-colomns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-            <p class="two-colomns__paragraph">
-              <span class="two-colomns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="two-colomns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        <div class="two-columns">
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle section-subtitle_theme_light">Про учёбу и мозг</h3>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
         <ul class="table">
           <li class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -81,7 +81,7 @@
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <ul class="table table_theme_dark">
+        <ol class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -122,17 +122,17 @@
             <h4 class="table__heading table__heading_theme_dark">10</h4>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
-        </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="синий треугольник">
+        </ol>
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <a class="logo logo_place_footer" href="https://practicum.yandex.ru/" target="_blank"></a>
           <p class="footer__author">&COPY; Татьяна Иванова</p>
         </div>
-        <div class="footer__column footer__column_content_sotial">
+        <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <ul class="footer__column-links">
             <li>
@@ -145,13 +145,13 @@
               <a class="footer__column-link" href="#">Наставники</a>
             </li>
           </ul>
-        </div>
-        <div class="footer__column footer__column_content_info">
+        </nav>
+        <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка Facebook">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка Фэйсбук">
                 Facebook
               </a>
             </li>
@@ -163,12 +163,12 @@
             </li>
             <li>
               <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка Instagram">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка Инстаграм">
                 Instagram
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </div>
