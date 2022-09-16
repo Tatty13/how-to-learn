@@ -354,10 +354,6 @@
   color: #2f80ed;
 }
 
-.footer__column-link:hover {
-  color: #2f80ed;
-}
-
 .footer__column-link:hover .footer__social-icon {
   filter: invert(2%) sepia(49%) saturate(1823%) hue-rotate(198deg) brightness(99%) contrast(90%);
 }
