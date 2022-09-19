@@ -13,11 +13,12 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  align-items: center;
   background-color: #f2f2f2;
 }
 
 .header__title {
-  margin: auto 0 auto 64px;
+  margin: 0 0 0 64px;
   max-width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -366,8 +367,3 @@
   margin-right: 10px;
   transition: .3s;
 }
-
- /* В брифе просто указано расстояние между иконкой и соц.сеть.
-  Буду очень благодарна, если в комментарии к работе Вы сможете уточнить,
-  почему нельзя было оставить gap для footer__column-link вместо указания отступа для icon.
-  Заранее благодаою! */
