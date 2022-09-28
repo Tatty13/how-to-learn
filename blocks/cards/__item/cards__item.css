@@ -1,0 +1,7 @@
+.cards__item {
+  width: min-content;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
