@@ -205,6 +205,7 @@
   padding: 160px 0 0;
   display: flex;
   justify-content: center;
+  background: #f2f2f2;
 }
 
 .digits {
