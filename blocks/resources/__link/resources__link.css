@@ -1,0 +1,14 @@
+.resources__link {
+  position: relative;
+  z-index: 2;
+  width: 270px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.resources__link:hover {
+  opacity: .6;
+}
