@@ -201,6 +201,12 @@
   font-weight: normal;
 }
 
+.oakley {
+  padding: 160px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
 .digits {
   padding: 100px 0;
   display: flex;
