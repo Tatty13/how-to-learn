@@ -54,21 +54,11 @@
   position: relative;
   text-decoration: none;
   color: #2f80ed;
+  transition: .3s;
 }
 
-.header__link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background-color: #2f80ed;
-  transition: .5s;
-}
-
-.header__link:hover::after {
-  width: 100%;
+.header__link:hover {
+  opacity: .6;
 }
 
 .header__main-illustration {
@@ -100,7 +90,7 @@
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  opacity: .6;
 }
 
 .logo_place_header {
@@ -337,21 +327,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition: .3s;
 }
 
-.feynman__link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #2f80ed;
-  transition: .5s;
-}
-
-.feynman__link:hover::after {
-  width: 100%;
+.feynman__link:hover {
+  opacity: .6;
 }
 
 .khan {
@@ -507,7 +487,7 @@
 }
 
 .footer__column-link:hover {
-  color: #2f80ed;
+  opacity: .6;
 }
 
 .footer__column-link:hover .footer__social-icon {
