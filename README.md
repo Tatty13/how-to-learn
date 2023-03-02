@@ -1,4 +1,8 @@
-# **Learning how to Learn**
+<h1 align="center">Learning how to Learn</h1>
+<div align="center">
+  <img src="https://github.com/Tatty13/imgs-for-README/blob/main/how-to-learn-upd.jpg?raw=true" alt="Project screenshot">
+</div>
+
 
 ## **About the project**
 
@@ -28,8 +32,7 @@ The development is based on the BEM methodology. The file structure is organized
 ---
 
 ---
-
-# **Научиться учиться**
+<h1 align="center">Научиться учиться</h1>
 
 ## **О проекте**
 
