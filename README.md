@@ -6,7 +6,7 @@ The study project on the education topic that was made as part of the "Web Devel
 
 You can find interesting facts, useful links, effective techniques in this project deploy.
 
-The development is based on the BEM methodology. The file structure is organized according to the BEM nested scheme. The page markup is implemented using semantic tags. Flexboxe layout is used to align elements.
+The development is based on the BEM methodology. The file structure is organized according to the BEM nested scheme. The page markup is implemented using semantic tags. Flexbox layout is used to align elements.
 
 ## **Stack**
 
